@@ -10,7 +10,7 @@ const routes: Routes = [
         path: '',
         outlet: 'contactus',
         loadChildren: () => import('./contactus/contactus.module').then(m => m.ContactusModule)
-      }
+      },
     ]
   }
 ];
