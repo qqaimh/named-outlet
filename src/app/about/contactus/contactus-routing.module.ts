@@ -14,11 +14,9 @@ const routes: Routes = [
     ]
 
   },
-  // { path: 'address', component: AddressComponent },
-  // { path: 'phone', component: PhoneComponent },
-   
+  { path: 'address', component: AddressComponent },
+  { path: 'phone', component: PhoneComponent },
   
-
 ];
 
 @NgModule({

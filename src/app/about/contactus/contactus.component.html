@@ -7,7 +7,8 @@
 <a [routerLink]="['', {outlets:{contactus: ['address']}}]" style="margin-left: 1rem;">address</a>
 <a [routerLink]="['./', {outlets:{contactus: ['address']}}]" style="margin-left: 1rem;">address</a>
 <a [routerLink]="['../',{outlets:{contactus: ['phone']}}]" style="margin-left: 1rem;">phone</a>
-<a routerLink="address" style="margin-left: 1rem;">address</a>
-<a routerLink="phone" style="margin-left: 1rem;">phone</a>
+
+<a (click)="goToRoute('address')" style="margin-left: 1rem;">address</a>
+<a (click)="goToRoute('phone')" style="margin-left: 1rem;">phone</a>
 <router-outlet></router-outlet>
 
