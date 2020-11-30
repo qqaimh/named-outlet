@@ -9,6 +9,7 @@ const routes: Routes = [
     children:[
       { path: 'address', component: AddressComponent },
       { path: 'phone', component: PhoneComponent },
+      { path: '', component: AddressComponent },
     ]
   },
   
