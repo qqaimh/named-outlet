@@ -18,7 +18,7 @@ export class ContactusComponent implements OnInit {
     console.log(this.route)
     const urlTree = this.router.createUrlTree(
       [{ outlets: { contactus: child } }],
-      /* AboutComponent */ { relativeTo: this.route.parent?.parent }
+      { relativeTo: this.route.parent?.parent }   /* AboutComponent */
     );
     console.log(urlTree)
     this.router.navigateByUrl(urlTree);
